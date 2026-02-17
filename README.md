@@ -38,3 +38,54 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force
 .\TweaksPack.ps1
 
+## 📝 Sections
+
+### Privacy
+- **Telemetry & Data Collection**: Disables Diagnostic Tracking service and telemetry registry keys  
+- **Cortana**: Turn off Cortana to save RAM and reduce background activity  
+- **Ads & Tips**: Disable Start menu suggestions, lock screen tips, and app ads
+
+### Performance
+- Disable unnecessary services (`XblGameSave`, `PrintNotify`, `Fax`, `MapsBroker`, etc.)  
+- Speed up animations via `MenuShowDelay`, `WaitToKillAppTimeout`, `HungAppTimeout`  
+- Disable Superfetch / SysMain for faster response on low-end hardware  
+- Optional: disable unnecessary startup apps via Task Manager  
+
+### Bloat Removal
+- Remove built-in UWP apps: Xbox, Solitaire, 3D Viewer, Maps, etc.  
+- Optional: Disable OneDrive completely if not needed  
+
+### Maintenance
+- Clean `%Temp%` and `C:\Windows\Prefetch`  
+- Clear Windows Update cache for faster updates  
+- Optional: Optimize / defrag SSD manually via Windows built-in tool  
+
+### Updates
+- Disable automatic updates for low-end laptops or offline usage  
+- Optional: configure manual updates policy via Registry  
+
+### Manual Tweaks
+- Disable Feedback Hub via registry  
+- Disable Xbox Game DVR / Overlay for gaming optimization  
+- Disable scheduled telemetry / activity tasks in Task Scheduler  
+- Set High Performance power plan  
+- Optional: tweak Windows Explorer / taskbar animations, notifications, and search indexing for extra speed
+
+
+## 🔗 References
+
+- [Microsoft Docs: Windows Services](https://docs.microsoft.com/en-us/windows/win32/services/services)  
+- [PowerShell Best Practices](https://docs.microsoft.com/en-us/powershell/scripting/overview)  
+- [Windows Privacy & Telemetry Guide](https://www.ghacks.net/)  
+
+## ⚡ Disclaimer
+
+This script and tweak collection is provided **as-is**. The author is not responsible for any system damage, data loss, or misconfiguration. Use at your own risk.
+
+## ⚠️ Important Notes
+
+- Tested on **Windows 10 (2004–22H2) and Windows 11**  
+- Backup important data before running scripts  
+- Some tweaks **disable system services** (telemetry, OneDrive, Cortana)  
+- Manual tweaks are optional but recommended for full optimization
+
