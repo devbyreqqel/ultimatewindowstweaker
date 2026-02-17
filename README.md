@@ -27,17 +27,6 @@
 | | Disable Feedback Hub | [Manual Tweaks](#manual-tweaks) |
 | | Set power plan to High Performance | [Manual Tweaks](#manual-tweaks) |
 
----
-
-## 💻 Usage
-
-1. Open **PowerShell as Administrator**  
-2. Download the script or save as `TweaksPack.ps1`  
-3. Run:  
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-.\TweaksPack.ps1
-
 ## 📝 Sections
 
 ### Privacy
@@ -88,4 +77,16 @@ This script and tweak collection is provided **as-is**. The author is not respon
 - Backup important data before running scripts  
 - Some tweaks **disable system services** (telemetry, OneDrive, Cortana)  
 - Manual tweaks are optional but recommended for full optimization
+
+---
+
+## 💻 Usage
+
+1. Open **PowerShell as Administrator**  
+2. Download the script or save as `TweaksPack.ps1`  
+3. Run:  
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\TweaksPack.ps1
+
 
